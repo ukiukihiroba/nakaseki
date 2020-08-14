@@ -15,7 +15,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(adumaya_koda.jpg);
+  background-image: url(https://raw.githubusercontent.com/ukiukihiroba/nakaseki/master/adumaya_koda.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -40,7 +40,7 @@ a {
 }
 /* signupクラスのCSSを指定してください */
 .LINE {
-  background-color: #00b900;
+    background-color: #00b900;
 }
 /* facebookクラスのCSSを指定してください */
 .map {
@@ -52,5 +52,15 @@ a {
   margin: 20px 0;
 }
 .btn:hover {
-  opacity: 1;
+  opacity: 1
+}
+header {
+  height: 65px;
+  background-color:  rgba(34,49,52,0.9);
+}
+header p {
+  opacity: 0.7;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
 }
