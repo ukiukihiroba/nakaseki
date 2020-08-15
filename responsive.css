@@ -1,0 +1,36 @@
+/* タブレット */
+@media (max-width: 1000px) {
+  .content {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  footer {
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
+/* スマホ */
+@media (max-width: 670px ) {
+  .content {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .map {
+    margin-bottom: 10px;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 24px
+  }
+  .heading {
+    font-size: 20px;
+  }
+
+}
