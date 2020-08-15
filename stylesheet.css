@@ -64,3 +64,23 @@ header p {
   letter-spacing: 2px;
   color: white;
 }
+.content {
+  float: left;
+  width: 25%;
+}
+.content-icon {
+  position: relative;
+}
+.content-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+.text-content {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
