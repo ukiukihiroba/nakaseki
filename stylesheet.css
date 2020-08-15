@@ -127,7 +127,7 @@ header p {
 }
 .annotation-wrapper {
   font-size: 12px;
-  height: 100px;
+  /* height: 100px; */
   padding-bottom: 80px;
   text-align: left;
 }
