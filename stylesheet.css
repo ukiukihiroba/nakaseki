@@ -6,7 +6,12 @@ body {
 a {
   text-decoration: none;
 }
-
+.header-left {
+  padding: 0 0 0 15px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
 .container {
   width: 1170px;
   padding: 0 15px;
@@ -37,16 +42,25 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.8;
+  cursor: pointer;
 }
 /* signupクラスのCSSを指定してください */
-.LINE {
+.line {
     background-color: #00b900;
+    box-shadow: 0 5px #006600;
 }
 /* facebookクラスのCSSを指定してください */
 .map {
   background-color: #dd5144;
+  box-shadow: 0 5px #cc4b3f;
   margin-right: 10px;
 }
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
 /* btn-wrapperクラスのCSSを指定してください */
 .btn-wrapper {
   margin: 20px 0;
@@ -56,7 +70,11 @@ a {
 }
 header {
   height: 65px;
+  width: 100%;
   background-color:  rgba(34,49,52,0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 header p {
   opacity: 0.7;
@@ -73,7 +91,7 @@ header p {
 }
 .content-icon p {
   position: absolute;
-  top: 90px;
+  top: 75px;
   width: 100%;
   color: white;
 }
@@ -86,7 +104,23 @@ header p {
 }
 .contents-wrapper {
   height: 500px;
-  padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-size: 24px;
+  font-weight: bold;
+}
+.annotation-wrapper p {
+  text-align: left;
+  padding-left: 15px;
+}
+.annotation-wrapper {
+  font-size: 12px;
+  height: 100px;
+  padding-bottom: 80px;
+  text-align: left;
 }
