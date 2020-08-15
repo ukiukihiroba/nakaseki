@@ -1,5 +1,8 @@
 *{
   box-sizing: border-box;
+.clear {
+  clear: left;
+}
 }
 body {
   margin: 0;
@@ -106,7 +109,7 @@ header p {
   color: #b3aeb5;
 }
 .contents-wrapper {
-  height: 500px;
+  /* height: 500px; */
   background-color: #f7f7f7;
   text-align: center;
 }
