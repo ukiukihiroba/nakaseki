@@ -131,3 +131,12 @@ header p {
   padding-bottom: 80px;
   text-align: left;
 }
+.footer-logo {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
