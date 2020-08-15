@@ -1,36 +1,144 @@
-/* タブレット */
-@media (max-width: 1000px) {
-  .content {
-    width: 50%;
-  margin-bottom: 50px;
-  }
-  footer {
-    text-align: center;
-  }
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
+*{
+  box-sizing: border-box;
+}
+.clear {
+  clear: left;
+}
+body {
+  margin: 0;
+  font-family: "Meiryo";
 }
 
-/* スマホ */
-@media (max-width: 670px ) {
-  .content {
-    width: 100%;
-  }
-  .btn {
-    width: 100%;
-  }
-  .map {
-    margin-bottom: 10px;
-  }
-  .top-wrapper {
-    text-align: left;
-  }
-  .top-wrapper h1 {
-    font-size: 20px
-  }
-  .heading {
-    font-size: 16px;
-  }
+a {
+  text-decoration: none;
+}
+.header-left {
+  padding: 0 0 0 15px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://raw.githubusercontent.com/ukiukihiroba/nakaseki/master/adumaya_koda.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+/* btnクラスのCSSを指定してください */
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* signupクラスのCSSを指定してください */
+.line {
+    background-color: #00b900;
+    box-shadow: 0 5px #006600;
+}
+/* facebookクラスのCSSを指定してください */
+.map {
+  background-color: #dd5144;
+  box-shadow: 0 5px #cc4b3f;
+  margin-right: 10px;
+}
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+/* btn-wrapperクラスのCSSを指定してください */
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn:hover {
+  opacity: 1
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color:  rgba(34,49,52,0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+header p {
+  opacity: 0.7;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+.content {
+  float: left;
+  width: 25%;
+}
+.content-icon {
+  position: relative;
+}
+.content-icon p {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  color: white;
+}
+.text-content {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+.contents-wrapper {
+  /* height: 500px; */
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-size: 24px;
+  font-weight: bold;
+}
+.annotation-wrapper p {
+  text-align: left;
+  padding-left: 15px;
+}
+.annotation-wrapper {
+  font-size: 12px;
+  /* height: 100px; */
+  padding-bottom: 80px;
+  text-align: left;
+}
+.footer-logo {
+  color: #5f5d60;
+  font-size: 20px;
+  float: left;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: left;
 }
